@@ -20,7 +20,10 @@ module.exports = exports = {
         "allowImportExportEverywhere": true
     },
 
-    "extends": "eslint:recommended",
+    "extends": [
+        "eslint:recommended",
+        "@jacksonrya/eslint-config-standard",
+    ],
 
     "globals": {
         "chrome": true,

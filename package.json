@@ -1,0 +1,5 @@
+{
+  "devDependencies": {
+    "@jacksonrya/eslint-config-standard": "^1.1.2"
+  }
+}
